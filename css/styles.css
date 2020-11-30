@@ -35,6 +35,10 @@ ul {
   background: #2f303a;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* ===============Header============= */
 .logo {
   font-family: var(--secondary-font);
@@ -55,13 +59,19 @@ ul {
   color: var(--accent-color);
 }
 /* ================nav============== */
-.nav__link,
-.header-contact {
+.nav__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+}
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
 }
 
 .nav__link:hover,
@@ -87,6 +97,7 @@ ul {
 }
 /* button */
 .modal-btn {
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
@@ -162,6 +173,7 @@ ul {
   color: var(--accent-color);
 }
 .modal-btn-portfolio {
+  font-family: var(--main-font)
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
